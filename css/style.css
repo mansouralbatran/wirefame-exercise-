@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+  header {
+    
+    padding: 50px;
+
+    top: 30;
+    background-color: rgb(155, 164, 167);
+  }
+ nav ul li {
+   
+    display: inline-block;
+   
+    margin-left: 60px;
+  }
+  hader nav {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: lightgray;
+  }
+  section{ 
+      margin-left: 20px
+  }
+  main section ul li {
+      display: block;
+  }
+  p {float :right ;
+    width: 50%;
+    
+  }
+  main section nav ul li {display: inline-block}
