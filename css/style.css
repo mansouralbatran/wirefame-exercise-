@@ -1,32 +1,50 @@
 * {
     box-sizing: border-box;
   }
-  header {
+  header div{
     
-    padding: 50px;
-
-    top: 30;
-    background-color: rgb(155, 164, 167);
+   
+    margin-bottom: 20px;
+   
   }
- nav ul li {
+  header article {
+    padding-left:7%;
+  }
+  ul li {
    
     display: inline-block;
    
-    margin-left: 60px;
+    /* margin-left: 30px; */
   }
-  hader nav {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: lightgray;
+
+  p{
+    width: 220px;
+    height: 400px;
+    overflow: scroll;
   }
-  section{ 
-      margin-left: 20px
+  div{margin: 14opx;
+    /* border: 1px solid rgb(30, 255, 0) ; */
   }
-  main section ul li {
-      display: block;
+  article{margin-left: 40; 
+    margin: 20px;
+    /* border: 1px solid red ; */
+    padding-left: 140px;
+   
   }
-  p {float :right ;
-    width: 50%;
-    
+  /* ul {
+     border: 1px solid rgb(17, 3, 3) ; */
+
+  /* } */
+   /* li{ border: 1px solid rgb(9, 18, 145) ;
+  } */
+  li {padding-left:20px;
+
   }
-  main section nav ul li {display: inline-block}
+  footer{
+    height: 100px;
+    background-color: grey;
+  }
+  a{
+    width: 100px;height: 100px;
+    background-color: grey;
+  }
